@@ -7,13 +7,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+ -->
 
 
 <!-- PROJECT LOGO -->
@@ -34,6 +34,7 @@
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
     - [Built With](#built-with)
+- [**README needs to be updated, following content is only placeholder**](#readme-needs-to-be-updated-following-content-is-only-placeholder)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -51,25 +52,24 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+MIDImOBS is an connector of your Midi-Device with streaming software OBS Studio (https://obsproject.com)
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Main Goals:
+* configure your midi controller, set your midi key to emit an action in OBS
+* feature 2
+* Build the tool for Windows & MacOS
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+MIDImOBS is fully open source and part of an regulary streaming session by [saft1g](https://twitch.tv/saft1g) (starting ~jan 2021)
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+The application is set up in Angular and put into an Electron container. As Angular is based on NodeJS the project contains a numerus amount of usefull packages.
+* [Angular](https://angular.io/)
+* [Electron](https://www.electronjs.org/)
 
 
-
+# **README needs to be updated, following content is only placeholder**
 <!-- GETTING STARTED -->
 ## Getting Started
 

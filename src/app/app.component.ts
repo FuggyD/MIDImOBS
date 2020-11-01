@@ -38,6 +38,7 @@ export class AppComponent {
         ],
       }))
       .subscribe((message) => {
+        // 144 = key pressed
         if(message.status === 144) {
           let input: Input = {
             key: message.data[0],
