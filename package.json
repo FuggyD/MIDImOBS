@@ -7,6 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "prettier:list": "prettier --list-different \"./{e2e,src}/**/*.{scss,ts}\" || ECHO .",
+    "prettier:write": "prettier --write \"./{e2e,src}/**/*.{scss,ts}\"",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -23,6 +25,7 @@
     "@ng-web-apis/midi": "^1.2.0",
     "@types/rx": "^4.1.2",
     "@types/webmidi": "^2.0.4",
+    "prettier": "^2.1.2",
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3",
     "tslib": "^2.0.0",

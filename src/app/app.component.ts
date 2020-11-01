@@ -6,8 +6,7 @@ import {inputById, MIDI_INPUT, MIDI_OUTPUT, outputByName} from '@ng-web-apis/mid
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  providers: [inputById('input-0'), outputByName('VirtualMIDISynth')],
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'MIDImOBS';
