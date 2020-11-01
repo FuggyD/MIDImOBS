@@ -2,6 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { Observable, Subject, from } from 'rxjs';
 import 'rxjs/Rx';
 import {inputById, MIDI_INPUT, MIDI_OUTPUT, outputByName} from '@ng-web-apis/midi';
+import { Input } from './interfaces/input';
 
 @Component({
   selector: 'app-root',
@@ -36,10 +37,16 @@ export class AppComponent {
           message.data[2],
         ],
       }))
-      .subscribe(message => {
+      .subscribe((message) => {
         if(message.status === 144) {
-          console.log('pushed key: ' + message.data[0])
-          console.log('pushed intensity: ' + message.data[1])
+          let input: Input = {
+            key: message.data[0],
+            intense: message.data[1]
+          };
+
+          console.log('pushed key: ' + input.key)
+          console.log('pushed intensity: ' + input.intense)
+          console.log(input)
         }
         // console.log(message)
         // this.messages.unshift(message);
