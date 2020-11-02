@@ -26,8 +26,10 @@
     "@types/rx": "^4.1.2",
     "@types/webmidi": "^2.0.4",
     "prettier": "^2.1.2",
+    "rpc-websockets": "^7.4.6",
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3",
+    "socket.io": "^2.3.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
